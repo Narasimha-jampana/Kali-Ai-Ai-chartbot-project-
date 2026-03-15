@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "narasimha-jampana"
+  },
+  "targets": {
+    "narasimha-jampana": {
+      "hosting": {
+        "kali-ai": [
+          "kali-ai-nj"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

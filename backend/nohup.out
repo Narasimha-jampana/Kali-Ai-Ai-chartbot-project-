@@ -1,0 +1,36 @@
+ * Serving Flask app 'server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.249:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 121-145-194
+127.0.0.1 - - [15/Mar/2026 20:44:40] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:44:40] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:44:40] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:14] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:14] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:14] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:31] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:31] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:44] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:46:44] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:16] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:17] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:32] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:32] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:46] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:47:47] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:48:02] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:48:02] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:48:31] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 20:48:32] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:06:58] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:06:59] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:09:08] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:09:08] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:09:27] "OPTIONS /chat HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 21:09:28] "POST /chat HTTP/1.1" 200 -
