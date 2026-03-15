@@ -249,8 +249,15 @@ async function sendMessage() {
     typingIndicator.classList.add('active');
     scrollToBottom();
 
+    // --- PRODUCTION BACKEND CONFIG ---
+    // After deploying to Render, set your URL here:
+    const PROD_API_URL = "https://kali-ai-backend.onrender.com"; // Replace with your actual Render URL
+    const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
+        ? "http://localhost:5001/chat" 
+        : `${PROD_API_URL}/chat`;
+
     try {
-        const response = await fetch("http://localhost:5001/chat", {
+        const response = await fetch(API_URL, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

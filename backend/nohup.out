@@ -34,3 +34,11 @@
 127.0.0.1 - - [15/Mar/2026 21:09:08] "POST /chat HTTP/1.1" 200 -
 127.0.0.1 - - [15/Mar/2026 21:09:27] "OPTIONS /chat HTTP/1.1" 200 -
 127.0.0.1 - - [15/Mar/2026 21:09:28] "POST /chat HTTP/1.1" 200 -
+ * Detected change in '/Users/narasimhajampana/Documents/AntiGravity/ai-chatbot/backend/server.py', reloading
+ * Restarting with stat
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x000000020c822200 (most recent call first):
+  <no Python frame>
