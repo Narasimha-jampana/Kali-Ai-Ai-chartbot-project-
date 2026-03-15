@@ -250,8 +250,8 @@ async function sendMessage() {
     scrollToBottom();
 
     // --- PRODUCTION BACKEND CONFIG ---
-    // After deploying to Render, set your URL here:
-    const PROD_API_URL = "https://kali-ai-backend.onrender.com"; // Replace with your actual Render URL
+    // After deploying to Vercel, set your URL here (e.g., https://your-app.vercel.app):
+    const PROD_API_URL = "https://kali-ai-backend.vercel.app"; 
     const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
         ? "http://localhost:5001/chat" 
         : `${PROD_API_URL}/chat`;
