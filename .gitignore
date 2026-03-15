@@ -1,0 +1,22 @@
+# Environment variables
+.env
+backend/.env
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Misc
+*.log
+nohup.out
+package-lock.json
